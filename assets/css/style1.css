@@ -560,7 +560,7 @@ body {
 }
 
 #section1 .right {
-	background-color: #FFCF7B;
+	background-color: #777777;
 }
 
 #section1 .right-head {
@@ -675,7 +675,7 @@ body {
 }
 
 #section2 .right {
-	background-color: #7D96BA;
+	background-color: #4E416C;
 }
 
 #section2 .right-head {
@@ -778,12 +778,12 @@ body {
 }
 /*section3------------------------------------------------------------------------*/
 #section3 {
-	background: #3C9EDD;
+	background: #9EAD77;
 	height: 100vh;
 }
 
 #section3 .left {
-	background-color: #3C9EDD;
+	background-color: #7B875D;
 	overflow:hidden;
 }
 
@@ -1085,12 +1085,12 @@ body {
 }
 
 #section5 .left {
-	background-color: #0F2035;
+	background-color: #606ED7;
 	overflow:hidden;
 }
 
 #section5 .right {
-	background-color: #374459;
+	background-color: #7A87E3;
 }
 
 #section5 .right-head {
@@ -1176,13 +1176,14 @@ body {
 }
 
 #section5 .left .hy1 {
-	width: 75%;
+	width: 80%;
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 3%;
 	margin: auto;
 	opacity: 0;
+	margin-left: 100px;
 }
 
 #section5 .left .hy1.show {
