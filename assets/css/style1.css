@@ -1256,7 +1256,7 @@ body {
 }
 /*section6------------------------------------------------------------------------*/
 #section6 {
-	background: #777;
+	background: #285B99;
 	height: 100vh;
 }
 
@@ -1266,11 +1266,9 @@ body {
 }
 
 #section6 .left .cmt1 {
-	width: 70%;
+	width: 100%;
 	position: absolute;
 	bottom: 0;
-	top:-10%;
-	right: -10%;
 	margin: auto;
 	opacity: 0;
 	transition-delay: 1.2s;
@@ -1321,7 +1319,7 @@ body {
 
 
 #section6 .right {
-	background-color: #333;
+	background-color: #06294F;
 }
 #section8 .right-head {
 	opacity: 0;
