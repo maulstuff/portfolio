@@ -1254,14 +1254,14 @@ li a:focus {
 }
 /*section6------------------------------------------------------------------------*/
 #section6 {
-	background: #777;
+	background: #121D31;
 	height: 100vh;
 }
 
-#section6 .left {
+/*#section6 .left {
 	background-color: #fff;
 	overflow:hidden;
-}
+} */
 
 #section6 .left .cmt1 {
 	width: 70%;
