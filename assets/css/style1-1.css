@@ -529,8 +529,8 @@ li a:focus {
 	animation-iteration-count:1;
 	}
 	
-#section3 {background: #3C9EDD;  height:100vh;}
-#section3 .left { background-color:#3C9EDD;}
+#section3 {background: #9EAD77;  height:100vh;}
+#section3 .left { background-color:#9EAD77;}
 #section3 .right {background-color:#7D96BA;  background-color:rgba(255, 255, 255, 0.3)}
 #section3 .right-head {opacity:0; 
 }
