@@ -136,32 +136,32 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/project-1.png) center center/cover;
+  background: url(../assets/project/Project-1.png) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/project-2.png) center center/cover;
+  background: url(../assets/project/Project-2.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/project-3.png) center center/cover;
+  background: url(../assets/project/Project-3.png) center center/cover;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../assets/project/project-4.png) center center/cover;
+  background: url(../assets/project/Project-4.png) center center/cover;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-  background: url(../assets/project/project-5.png) center center/cover;
+  background: url(../assets/project/Project-5.png) center center/cover;
 }
 
 /* Project 6 */
 .card:nth-child(6) {
-  background: url(../assets/project/project-6.png) center center/cover;
+  background: url(../assets/project/Project-6.png) center center/cover;
 }
 
 /* Media Queries */
