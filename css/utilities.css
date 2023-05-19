@@ -143,37 +143,67 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/Project-1.png) center center/cover;
+  background: url(../assets/project/Pro1.png) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/Project-2.png) center center/cover;
+  background: url(../assets/project/Pro2.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/Project-3.png) center center/cover;
+  background: url(../assets/project/Pro3.png) center center/cover;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../assets/project/Project-4.png) center center/cover;
+  background: url(../assets/project/Pro4.png) center center/cover;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-  background: url(../assets/project/Project-5.png) center center/cover;
+  background: url(../assets/project/Pro5.png) center center/cover;
 }
 
 /* Project 6 */
 .card:nth-child(6) {
-  background: url(../assets/project/Project-6.png) center center/cover;
+  background: url(../assets/project/Pro6.png) center center/cover;
 }
 
 /* Project 7 */
 .card:nth-child(7) {
-  background: url(../assets/project/Frame-89.png) center center/cover;
+  background: url(../assets/project/Pro7.png) center center/cover;
+}
+
+/* Project 8 */
+.card:nth-child(8) {
+  background: url(../assets/project/Pro8.png) center center/cover;
+}
+
+/* Project 9 */
+.card:nth-child(9) {
+  background: url(../assets/project/Pro9.png) center center/cover;
+}
+
+/* Project 10 */
+.card:nth-child(10) {
+  background: url(../assets/project/Pro10.png) center center/cover;
+}
+
+/* Project 11 */
+.card:nth-child(11) {
+  background: url(../assets/project/Pro11.png) center center/cover;
+}
+
+/* Project 12 */
+.card:nth-child(12) {
+  background: url(../assets/project/Pro12.png) center center/cover;
+}
+
+/* Project 13 */
+.card:nth-child(13) {
+  background: url(../assets/project/Pro13.png) center center/cover;
 }
 
 /* Media Queries */
