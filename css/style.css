@@ -331,4 +331,17 @@ body {
     border-radius: 5px;
     width: 80%;
   }
+
+  .work-top {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6rem;
+    row-gap: 0;
+  }
+  .lead {
+    opacity: 0.8;
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.8;
+  }
 }

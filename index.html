@@ -1,279 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>My Portfolio</title>
+    <meta name="title" content="My Portfolio" />
+    <meta
+      name=" description"
+      content="Portfolio UI/UX Designer Maulana Akbar Kusuma"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Primary Meta Tags -->
-  <title>My Portfolio</title>
-  <meta name="title" content="My Portfolio" />
-  <meta name=" description"
-    content="Portfolio UI/UX Designer Maulana Akbar Kusuma" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta property="og:title" content="My Portfolio" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon/android-chrome-512x512.png"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
 
-  <!-- Open Graph / Facebook 
-=======
-  <!-- <meta name=" description"
-    content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project" />-->
-  
-  <!-- Open Graph / Facebook -->
+  <body>
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="https://behance.net/maulstuff"
+              ><img src="./assets/logo.png" alt="Your Logo"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#about">ABOUT ME</a></li>
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="#footer">CONTACT</a></li>
+            <!-- <li><a class="nav-link" href="#">BLOG</a></li> -->
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href="https://drive.google.com/file/d/1hqlP78vDjMmkJTig_7hNvEA-8u4aOAXg/view?usp=share_link"
+                >RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
 
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="#" />
-  <meta property="og:title" content="My Portfolio" />
-  <!--<meta property="og:description"
-    content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project" />
-  <meta property="og:image"
-    content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png" /> -->
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" />
+                <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div>
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
 
-  <!-- Twitter 
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://github.com/CommunityPro/portfolio-html" />
-  <meta property="twitter:title" content="My Portfolio" />
-  <!--<meta property="twitter:description"
-    content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project" />
-  <meta property="twitter:image"
-<<<<<<< HEAD
-    content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png" /> 
-=======
-    content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png" /> -->
+      <section class="header-container" id="about">
+        <img class="profile-image" src="assets/img/akbar.png" alt="" />
+        <h1>Hi, I'm Maulana Akbar Kusuma</h1>
 
-  <!-- Link -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
-  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
-  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-  <link rel="manifest" href="assets/favicon/site.webmanifest" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/utilities.css" />
-</head>
+        <div class="content-text">
+          <h2>UI/UX Designer</h2>
+          <!--<h2>UI/UX Designer</h2> -->
 
-<body>
-  <header id="hero">
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="container">
-        <!-- Logo -->
-        <h1 id="logo">
-          <a href="https://behance.net/maulstuff"><img src="./assets/logo.png" alt="Your Logo" /></a>
-        </h1>
-        <!-- Navbar links -->
-        <ul class="nav-menu">
-          <li><a class="nav-link" href="#about">ABOUT ME</a></li>
-          <li><a class="nav-link" href="#projects">PROJECTS</a></li>
-          <li><a class="nav-link" href="#footer">CONTACT</a></li>
-          <!-- <li><a class="nav-link" href="#">BLOG</a></li> -->
-          <li>
-            <a class="nav-link btn btn-primary"
-              href="https://drive.google.com/file/d/1hqlP78vDjMmkJTig_7hNvEA-8u4aOAXg/view?usp=share_link">RESUME <i
-                class="fas fa-arrow-right"></i></a>
+          <p>
+            Hi guys! Now you can see my portfolio site. I have 2 year experience
+            as UI/UX Designer.<br />
+            You can see my work as UI/UX and you guys can connect with me in
+            LinkedIn by click button below.
+          </p>
+
+          <p></p>
+        </div>
+
+        <a
+          href="https://www.linkedin.com/in/maulstuff"
+          class="btn btn-secondary"
+          >Connect With Me</a
+        >
+      </section>
+    </header>
+    <section id="about" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>What I'm doing</h2>
+        <ul class="work-top grid">
+          <li class="lead">
+            <p class="doing">
+              <i class="fas fa-dot-circle"></i>
+              User Research: Conducting user research to understand the target
+              audience, their needs, and behaviors. This may involve surveys,
+              interviews, usability testing, and analyzing user data.
+            </p>
+          </li>
+          <li class="lead">
+            <p class="doing">
+              <i class="fas fa-dot-circle"></i> Wireframing and Prototyping:
+              Creating wireframes, which are basic layouts outlining the
+              structure and functionality of a digital product. Prototyping
+              involves building interactive models or mockups to test and
+              validate design concepts.
+            </p>
           </li>
 
-          <!-- Toggle switch -->
-          <div class="theme-switch">
-            <input type="checkbox" id="switch" />
-            <label class="toggle-icons" for="switch">
-              <img class="moon" src="assets/moon.svg" />
-              <img class="sun" src="assets/sun.svg" />
-            </label>
-          </div>
-          <!-- Hamburger menu -->
+          <li class="lead">
+            <p class="doing">
+              <i class="fas fa-dot-circle"></i> Visual Design: Designing the
+              visual elements of the interface, including color schemes,
+              typography, icons, and imagery, to create an aesthetically
+              pleasing and consistent user interface (UI).
+            </p>
+          </li>
+
+          <li class="lead">
+            <p class="doing">
+              <i class="fas fa-dot-circle"></i> Information Architecture:
+              Defining the information structure and organization of the
+              product, including navigation menus, content categorization, and
+              hierarchy.
+            </p>
+          </li>
+
+          <li class="lead">
+            <p class="doing">
+              <i class="fas fa-dot-circle"></i> Interaction Design: Designing
+              the interactions and behaviors of the product, including how users
+              navigate, interact with elements, and accomplish tasks. This may
+              involve creating microinteractions, animations, and transitions.
+            </p>
+          </li>
+
+          <li class="lead">
+            <p class="doing">
+              <i class="fas fa-dot-circle"></i> Usability Testing: Conducting
+              user testing sessions to evaluate the usability and effectiveness
+              of the design. Gathering feedback and iteratively refining the
+              design based on user insights.
+            </p>
+          </li>
+
+          <li class="lead">
+            <p class="doing">
+              <i class="fas fa-dot-circle"></i> Collaboration: Working closely
+              with cross-functional teams such as developers, product managers,
+              and stakeholders to ensure the design aligns with the project
+              goals, technical feasibility, and business requirements.
+            </p>
+          </li>
         </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
       </div>
-    </nav>
-
-
-    <section class="header-container" id="about">
-      <img class="profile-image" src="assets/img/akbar.png" alt="" />
-      <h1>Hi, I'm Maulana Akbar Kusuma</h1>
-
-      <div class="content-text">
-        <h2>UI/UX Designer</h2>
-        <!--<h2>UI/UX Designer</h2> -->
-
-        <p>
-          Hi guys! Now you can see my portfolio site. I have 2 year experience as UI/UX Designer.<br>
-          You can see my work as UI/UX at this website And you guys can connect with me in LinkedIn by click button below.
-                <p>
-      </div>
-      <a href="https://www.linkedin.com/in/maulstuff" class="btn btn-secondary">Connect With Me</a>
-      <br>
-          Hope you guys enjoy ! Thanks :)
     </section>
-  </header>
-  <!--<section id="about" class="project-container container">
-    <div class="division"></div>
-    <div class="content-text">
-      <h2>About me</h2>
-      <p>And here are a few more things about me. I am very passionate about web and mobile design. I have just finished
-        my studies and started practising my skills on real-world project. </p>
-    </div>
 
-  </section> -->
+    <!-- Projects -->
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Works Projects</h2>
+        <p>Check out some of my personal and paid projects</p>
+      </div>
 
-  <!-- Projects -->
-  <section id="projects" class="project-container container">
-    <div class="division"></div>
-    <div class="content-text">
-      <h2>Works Projects</h2>
-      <p>Check out some of my personal and paid projects</p>
-    </div>
+      <article class="project">
+        <!-- Project 1 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>GuruInovatif</h3>
+              <p>Landing Page</p>
+            </div>
 
-    <article class="project">
-      <!-- Project 1 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>GuruInovatif</h3>
-            <p>Landing Page</p>
-          </div>
-
-
-          <!--<div class="project-link">
+            <!--<div class="project-link">
             <a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>
           </div>-->
 
-          <div class="project-link">
-            <!--<a href="#"><i class="fab fa-github"></i></a>
+            <div class="project-link">
+              <!--<a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>-->
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>GuruInovatif</h3>
-            <p>Online Course Mobile</p>
-          </div>
-
-          <div class="project-link">
-            <!--<a href="#"><i class="fab fa-dribbble"></i></a>-->
-            <a href="https://www.behance.net/gallery/162640823/GuruInovatif-Mobile"><i class="fab fa-behance"></i></a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Porject 3 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Zat App</h3>
-            <p>Family Services App</p>
+        <!-- Project 2 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>GuruInovatif</h3>
+              <p>Online Course Mobile</p>
+            </div>
+
+            <div class="project-link">
+              <!--<a href="#"><i class="fab fa-dribbble"></i></a>-->
+              <a
+                href="https://www.behance.net/gallery/162640823/GuruInovatif-Mobile"
+                ><i class="fab fa-behance"></i
+              ></a>
+            </div>
           </div>
+        </div>
 
+        <!-- Porject 3 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Zat App</h3>
+              <p>Family Services App</p>
+            </div>
 
-          <!--<div class="project-link">
+            <!--<div class="project-link">
             <a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>
           </div>-->
 
-          <div class="project-link">
-            <!--<a href="#"><i class="fab fa-github"></i></a>
+            <div class="project-link">
+              <!--<a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>-->
+            </div>
           </div>
-
         </div>
-      </div>
 
-      <!-- Project 4 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Modern.</h3>
-            <p>Landing Page</p>
-          </div>
+        <!-- Project 4 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Modern.</h3>
+              <p>Landing Page</p>
+            </div>
 
-
-          <!--<div class="project-link">
+            <!--<div class="project-link">
             <a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>
           </div>-->
 
-          <div class="project-link">
-            <!--<a href="#"><i class="fab fa-github"></i></a>
+            <div class="project-link">
+              <!--<a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>-->
+            </div>
           </div>
-
         </div>
-      </div>
 
-      <!-- Project 5 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>NFTSTUFF</h3>
-            <p>Dashboard NFT</p>
-          </div>
+        <!-- Project 5 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>NFTSTUFF</h3>
+              <p>Dashboard NFT</p>
+            </div>
 
-
-          <!--<div class="project-link">
+            <!--<div class="project-link">
             <a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>
           </div> -->
 
-          <div class="project-link">
-            <!--<a href="#"><i class="fab fa-github"></i></a>
+            <div class="project-link">
+              <!--<a href="#"><i class="fab fa-github"></i></a>
             <a href="#"><i class="fas fa-globe"></i></a>-->
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Project 6 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Startupz</h3>
-            <p>Landing Page</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://www.behance.net/gallery/159828777/Landing-Page-Startupz"><i class="fab fa-behance"></i></a>
-            <!--<a href="#"><i class="fas fa-globe"></i></a>-->
+            </div>
           </div>
         </div>
-      </div>
-    </article>
 
-    <a href="https://drive.google.com/file/d/1hfbTC_hkApZVvS57XiD9Qi7KF3r1h-Kd/view?usp=share_link" class="btn btn-secondary">See More <i class="fas fa-arrow-right"></i></a>
-  </section>
+        <!-- Project 6 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Startupz</h3>
+              <p>Landing Page</p>
+            </div>
 
-  <footer id="footer">
-    <div class="container">
-      <a href="mailto:maulkusuma@gmail.com">maulkusuma@gmail.com</a><br>
-      
-      <!-- Social links -->
-      <div class="social">
-        <a href="https://facebook.com/maulstuff"><img src="./assets/facebook-icon.svg" alt="Facebook" /></a>
-        <a href="https://twitter.com/maulstuff"><img src="./assets/twitter-icon.svg" alt="Twitter" /></a>
-        <a href="https://linkedin.com/in/maulstuff"><img src="./assets/linkedin-icon.svg" alt="Linkedin" /></a>
-        <a href="https://behance.net/maulstuff"><img src="./assets/behance-svgrepo-com.svg" alt="behance"></i></a>
-        <a href="https://dribbble.com/maulstuff"><img src="./assets/dribbble-svgrepo-com.svg" alt="dribbble" /></a>
-      </div>
-      <!-- Attribution -->
-      <div class="attribution">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-        </a>
-      </div>
-      <p>Copyright &copy; Maulstuff 2023, All rights reserved</p>
-    </div>
-  </footer>
-  <script src="js/script.js"></script>
-</body>
+            <div class="project-link">
+              <a
+                href="https://www.behance.net/gallery/159828777/Landing-Page-Startupz"
+                ><i class="fab fa-behance"></i
+              ></a>
+              <!--<a href="#"><i class="fas fa-globe"></i></a>-->
+            </div>
+          </div>
+        </div>
 
+        <!-- Project 7 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Startupz</h3>
+              <p>Landing Page</p>
+            </div>
+
+            <div class="project-link">
+              <a
+                href="https://www.behance.net/gallery/159828777/Landing-Page-Startupz"
+                ><i class="fab fa-behance"></i
+              ></a>
+              <!--<a href="#"><i class="fas fa-globe"></i></a>-->
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <a
+        href="https://drive.google.com/file/d/1hfbTC_hkApZVvS57XiD9Qi7KF3r1h-Kd/view?usp=share_link"
+        class="btn btn-secondary"
+        >See More <i class="fas fa-arrow-right"></i
+      ></a>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <a href="mailto:maulkusuma@gmail.com">maulkusuma@gmail.com</a><br />
+
+        <!-- Social links -->
+        <div class="social">
+          <a href="https://facebook.com/maulstuff"
+            ><img src="./assets/facebook-icon.svg" alt="Facebook"
+          /></a>
+          <a href="https://twitter.com/maulstuff"
+            ><img src="./assets/twitter-icon.svg" alt="Twitter"
+          /></a>
+          <a href="https://linkedin.com/in/maulstuff"
+            ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
+          /></a>
+          <a href="https://behance.net/maulstuff"
+            ><img src="./assets/behance-svgrepo-com.svg" alt="behance"
+          /></a>
+          <a href="https://dribbble.com/maulstuff"
+            ><img src="./assets/dribbble-svgrepo-com.svg" alt="dribbble"
+          /></a>
+        </div>
+
+        <div class="attribution">
+          <a href="#" target="_blank" rel="noopener noreferrer"> </a>
+        </div>
+        <p>Copyright &copy; Maulstuff 2023, All rights reserved</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -55,7 +55,7 @@ h2::selection {
   cursor: pointer;
 }
 
-.toggle-icons>img {
+.toggle-icons > img {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   width: 30px;
 }
@@ -64,11 +64,11 @@ h2::selection {
   transform: rotate(10deg);
 }
 
-#switch:checked+.toggle-icons .moon {
+#switch:checked + .toggle-icons .moon {
   transform: rotate(250deg);
 }
 
-#switch:checked+.toggle-icons .sun {
+#switch:checked + .toggle-icons .sun {
   transform: rotate(100deg);
 }
 
@@ -82,7 +82,7 @@ h2::selection {
   padding: 1rem;
 }
 
-.header-container>div {
+.header-container > div {
   margin-top: 1rem;
 }
 
@@ -100,7 +100,14 @@ h2::selection {
 .content-text p {
   padding: 0.5rem;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 800px;
+}
+
+.doing {
+  padding: 0.5rem;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
 }
 
 /* Project cards */
@@ -162,6 +169,11 @@ h2::selection {
 /* Project 6 */
 .card:nth-child(6) {
   background: url(../assets/project/Project-6.png) center center/cover;
+}
+
+/* Project 7 */
+.card:nth-child(7) {
+  background: url(../assets/project/Frame-89.png) center center/cover;
 }
 
 /* Media Queries */
