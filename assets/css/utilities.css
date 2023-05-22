@@ -206,16 +206,6 @@ h2::selection {
   background: url(../assets/project/Pro13.png) center center/cover;
 }
 
-/* Project 14 */
-.card:nth-child(14) {
-  background: url(../assets/project/Pro14.png) center center/cover;
-}
-
-/* Project 15 */
-.card:nth-child(15) {
-  background: url(../assets/project/Pro15.png) center center/cover;
-}
-
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
