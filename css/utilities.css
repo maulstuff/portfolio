@@ -221,6 +221,11 @@ h2::selection {
   background: url(../assets/project/Pro16.png) center center/cover;
 }
 
+/* Project 17 */
+.card:nth-child(17) {
+  background: url(../assets/project/Pro17.png) center center/cover;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
